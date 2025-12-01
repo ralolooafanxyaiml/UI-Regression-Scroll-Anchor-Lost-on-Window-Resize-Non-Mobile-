@@ -1,4 +1,4 @@
-bugfix_code = r"""import React, { useEffect, useRef } from 'react';
+"""import React, { useEffect, useRef } from 'react';
 
 const ChatWindow = ({ messages }) => {
   const chatContainerRef = useRef(null);
@@ -32,5 +32,3 @@ const ChatWindow = ({ messages }) => {
     </div>
   );
 };"""
-
-print(bugfix_code)
