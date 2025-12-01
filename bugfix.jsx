@@ -1,4 +1,4 @@
-"""import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 
 const ChatWindow = ({ messages }) => {
   const chatContainerRef = useRef(null);
@@ -31,4 +31,5 @@ const ChatWindow = ({ messages }) => {
       {messages.map(msg => <div key={msg.id}>{msg.text}</div>)}
     </div>
   );
-};"""
+};
+
